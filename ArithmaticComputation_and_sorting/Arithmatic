@@ -22,3 +22,9 @@ echo "Result:" $resultTwo
 #commit operation 4
 esultThree=`echo "scale=2;$a % $b + $c" | bc`
 echo "Result:" $resultThree
+
+#TO STORE THE DICTIONARY
+arithmaticOperation[result]=$result
+arithmaticOperation[resultOne]=$resultOne
+arithmaticOperation[resultTwo]=$resultTwo
+arithmaticOperation[resultThree]=$resultThree
