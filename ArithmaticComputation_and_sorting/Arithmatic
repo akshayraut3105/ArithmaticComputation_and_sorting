@@ -1,6 +1,12 @@
+#! /bin/bash
 echo "--------------------------------Arithmetic Compution And Sorting ----------------------------------"
 
 #TO TAKING INPUT FROM USER
 read -p "Enter first input :" a
 read -p "Enter second input:" b
 read -p "Enter third input :" c
+
+
+#COMPUTE ARITHMETIC OPERATION
+result=`echo "scale=2;$a + $b * $c" | bc`
+echo "Result:" $result
