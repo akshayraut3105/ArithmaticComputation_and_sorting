@@ -18,3 +18,7 @@ echo "Result:" $resultOne
 #compute operation 3
 resultTwo=`echo "scale=2;$c + $a / $b " | bc`
 echo "Result:" $resultTwo
+
+#commit operation 4
+esultThree=`echo "scale=2;$a % $b + $c" | bc`
+echo "Result:" $resultThree
