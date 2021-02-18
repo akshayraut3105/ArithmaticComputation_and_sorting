@@ -1,0 +1,6 @@
+echo "--------------------------------Arithmetic Compution And Sorting ----------------------------------"
+
+#TO TAKING INPUT FROM USER
+read -p "Enter first input :" a
+read -p "Enter second input:" b
+read -p "Enter third input :" c
