@@ -1,6 +1,9 @@
 #! /bin/bash
 echo "--------------------------------Arithmetic Compution And Sorting ----------------------------------"
 
+# declare a dictonary
+declare -A arithmaticOperation
+
 #TO TAKING INPUT FROM USER
 read -p "Enter first input :" a
 read -p "Enter second input:" b
@@ -28,3 +31,4 @@ arithmaticOperation[result]=$result
 arithmaticOperation[resultOne]=$resultOne
 arithmaticOperation[resultTwo]=$resultTwo
 arithmaticOperation[resultThree]=$resultThree
+
