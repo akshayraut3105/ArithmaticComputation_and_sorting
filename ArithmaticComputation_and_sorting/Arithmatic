@@ -14,3 +14,7 @@ echo "Result:" $result
 #compute operatin 2
 resultOne=`echo "scale=2;$a * $b + $c" | bc`
 echo "Result:" $resultOne
+
+#compute operation 3
+resultTwo=`echo "scale=2;$c + $a / $b " | bc`
+echo "Result:" $resultTwo
